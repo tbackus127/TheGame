@@ -1,0 +1,23 @@
+Ability Name (String, Underscores)
+HP% Per Turn (0-100, -1 for NULL)
+MP% Per Turn (0-100, -1 for NULL)
+Triggered or Whole Battle? (0 = Trig, 1 = Battle)
+Extra Crit Number (1-5, -1 for NULL)
+Trigger 1 HP <% (When HP falls below this %, do V)
+Trigger 1 Parameter (If HP falls below ^, what parameter is effected?)
+Trigger 1 Parameter multiplyer (Ex: x1.5 = 1.5)
+Trigger 1 HP Regen (Regen HP %, stacks with other regens)
+Trigger 1 MP Regen ( ^ )
+Trigger 2 MP <%
+Trigger 2 Parameter
+Trigger 2 Parameter multiplyer
+Trigger 2 HP Regen
+Trigger 2 MP Regen
+HP 0 Effect? (1 = Yes, 0 = No)
+HP 0 Damage enemy int ( Deal X damage to enemy when you die )
+HP 0 Revive with x HP int (When you die, revive with x HP)
+HP 0 Use skill x (1-5, Use when you die)
+EXP Boost %
+Gold Boost %
+Skill + Attack? (1 = Yes, 0 = No)
+At what % or less? ^ (Default, 100)

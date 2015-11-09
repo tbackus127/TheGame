@@ -1,0 +1,11 @@
+Skill Name (No_spaces)
+Skill Target (1E, 1A)
+Skill Plus Damage (Percent)(Can be + or - )
+Skill Dot damage
+Skill Dot turns
+HP Change
+MP Change
+ATK Change
+DEF Change
+SPD Change
+Skill MP Cost

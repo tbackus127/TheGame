@@ -1,0 +1,11 @@
+Item Name
+HP Restore
+HP % Restore
+MP Restore
+MP % Restore
+ATK increase
+DEF increase
+SPD increase
+Max quantity
+Buy cost
+Sell price

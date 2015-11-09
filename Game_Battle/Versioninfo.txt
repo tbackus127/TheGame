@@ -1,0 +1,341 @@
+The Game version 1.3.3.0094
+
+
+Things to implement and their status:
+Overall percent: 100% (-------------------------)
+
+Lines: 3918 as of 1.2.1.0081
+
+Done:
+
+Core - 100% (Super Easy)
+Read from file - 100% (Easy)
+Character/Enemy Selection - 100% (Moderate)
+Level up - 100% (Moderate)
+Define flash - 100% (Moderate)
+Defense system - 100% (Difficult)
+Character update - 100% (Moderate)
+Skills - 100% (Very Difficult)
+Main Menu - 100% (Super Easy)
+Character Creation - 100% (Difficult)
+Enemy Creation - 100% (Difficult)
+Abilities - 100% (Very Difficult)
+Enemy Database - 100% (Easy, but tedious)
+No Underscores - 100% (Difficult)
+Enemy Skills - 100% (Linked with AI)
+
+
+To do:
+
+
+Clean Up and fully debug - 15% (Moderate) 1.x.xBeta
+Beta Testing Complete - 0% (Uber Easy) 1.x.x
+
+
+Enemy AI - 25% (Moderate)
+Items - 0% (Very Difficult)
+Equipment - 0% (Very Difficult)
+
+
+Windows GUI - 0% (Omni-Difficult) 2.0.0
+Online - 0% (Omni-Difficult?) 3.0.0 (Idea: telnet http://mywebsite/The_Game/TheGame.exe ?????)
+MMORPG - 0% (Ludicrous) 4.0.0
+
+
+1.3.3
+Inn cost is now not being multiplied by 0...
+
+1.3.2
+Added a quit function to the char select on the inn menu
+
+1.3.1
+Inn now updates correctly.
+
+1.3.0
+Inn implemented
+
+1.2.10
+Skills now actually consume MP.
+
+1.2.9
+Added item template.
+
+1.2.8
+Enemy AI template complete, applied to ID 5 and 6.
+
+1.2.7
+Skill and ability IDs now show on character creation confirmation.
+
+1.2.6
+Underscores are now not required.
+
+1.2.5
+Character and enemy's skill and ability streams now reinitialize
+
+1.2.4
+EXP rolls now cannot be 0.
+
+1.2.3
+Boss enrage added.
+
+1.2.2
+Rolls of 0 will result in a roll of 1.
+
+1.2.1
+First rolls reinitialize.
+
+1.2.0
+Mersenne Twister now fully working.
+
+1.1.7
+Less confusing version of Mersenne Twister incoporated...
+
+1.1.6
+Mersenne Twister random algorithm incorporated.
+
+1.1.5
+Player skills now work correctly, even with spaces.
+
+1.1.4
+Help section completed
+
+1.1.3
+Enemy Skills now show up correctly.
+
+1.1.2
+Enemy Skills incorporated.
+
+1.1.1
+Character Skills and abilities now are outputted correctly.
+
+1.1.0
+Entries no longer require underscores instead of whitespaces.
+
+1.0.2
+Added a quit function to the main menu.
+
+1.0.1
+Reorganized the whole thing.
+
+1.0.0
+Released for beta testing.
+
+0.9.10
+Fixed wrong label in enemy creation.
+
+0.9.9
+Completed necessary Enemy database.
+
+0.9.8
+Fixed HoT stacking on skill selection error.
+
+0.9.7
+Character creation now supports skills and abilities.
+
+0.9.6
+Everything now goes back to the title screen except quit functions and errors.
+
+0.9.5
+Auto Life abilities now actually revive you.
+
+0.9.4
+Auto Life ability incorporated, last one...
+
+0.9.3
+Paramenter abilities now work properly.
+
+0.9.2
+Parameter abilities now incorporated.
+
+0.9.1
+Regen abilities now work.
+
+0.9.0
+Abilitiy core created.
+
+0.8.6
+Added a spiffy console title.
+
+0.8.5
+Fixed an update error in enemy creation.
+
+0.8.4
+Finished the enemy creation, minus abilities.
+
+0.8.3
+Removed some getch();s in simple char creation.
+
+0.8.2
+Character creation finished, minus abilities.
+
+0.8.1
+Double striking now works correctly.
+
+0.8.0
+Incorporated the speed system.
+
+0.7.7
+Added debuffs.
+
+0.7.6
+Buffs now stack with different buffs
+
+0.7.5
+Added 7 new skills.
+
+0.7.4
+Set ATK, DEF, and SPD to Bases after battle.
+
+0.7.3
+Added a spiffy new icon!
+
+0.7.2
+Added some eye candy to the main menu.
+
+0.7.1
+Fixed an issue with the buff ticker.
+
+0.7.0
+Parameter buffs implemented.
+
+0.6.15
+Set a constant for MaxHP and MaxMP.
+
+0.6.14
+Fixed a variable mismatch.
+
+0.6.13
+Fixed a silly error where I didn't know the difference between a string and an int.
+
+0.6.12
+Finished character creation.
+
+0.6.11
+Added some more getch();s.
+
+0.6.10
+Incorporated healing
+
+0.6.9
+Fixed a DoT reset error.
+
+0.6.8
+Fixed an error where if a DoT was used, skills could not be used.
+
+0.6.7
+Fixed DoT stacking error.
+
+0.6.6
+Damage over time (DoT) skills now incorporated.
+
+0.6.5
+Skill damage is now a percent.
+
+0.6.4
+Fixed a problem with skills 4 and 5.
+
+0.6.3
+Added character creation.
+
+0.6.2
+Fixed a bracket {} error.
+
+0.6.1
+Fixed a small error in the level up system.
+
+0.6.0
+Incorporated the level up system.
+
+0.5.9
+Incorporated a menu system with Battle, Level up, Char create, and enemy create.
+
+0.5.8
+Added To next level on loading screen.
+
+0.5.7
+Classes now appear properly at the loading screen.
+
+0.5.6
+Fixed enemy's skill numbers.
+
+0.5.5
+Nerfed the enemies a tad.
+
+0.5.4
+Removed a getch(); before skill entry.
+
+0.5.3
+Stat update is now saved the same way as character IDs are loaded
+
+0.5.2
+Characters now are loaded the same way enemy IDs are.
+
+0.5.1
+Monster IDs now properly load after a failed load. (Stringstream clears)
+
+0.5.0
+Skills now load on a skill ID system.
+
+0.4.1
+Finally found a way to open a variable-determined file.
+
+0.4.0
+Replaced all cin.get;'s with getch(), and cleaned up.
+
+0.3.6
+Defined a text hilight for crits instead of the wall of system(color)s
+
+0.3.5
+De-noobed some more, replacing system("cls"); with clearscreen();
+
+0.3.4
+De-noobed the source, replaced "system("Pause");"s with "cin.get();"s
+
+0.3.3
+Fixed updating of new variables.
+
+0.3.2
+Added a quit function to the menu.
+
+0.3.1
+Added support for up to 3 skills.
+
+0.3.0
+Added Max HP, MP, etc.
+
+0.2.3
+Nerfed the enemies a little.
+
+0.2.2
+Fixed a bug where high defense would yield negative damage.
+
+0.2.1
+Skills now properly use MP.
+
+0.2.0
+Skills with + parameter now implemented.
+
+0.1.7
+Properly rounds damage and edamage without round(x) function with static_cast<int>(x)
+
+0.1.6
+Fixed a small issue after missing character where screen would advance too
+quickly.
+
+0.1.5
+Player and enemy HP is now shown at the desicion screen.
+
+0.1.4
+Stats now update with correct characters.
+
+0.1.3
+Stats now update after battle.
+
+0.1.2
+Added a CharacterID and EnemyID selection.
+
+0.1.1
+Battle system now rounds numbers properly with ceil/floor, may change later.
+
+0.1.0
+Battle system is now fully functional, with rounding errors.

@@ -1,0 +1,30 @@
+Name
+Level
+HP
+MaxHP
+MP
+MaxMP
+ATK
+BaseATK
+DEF
+BaseDEF
+SPD
+BaseSPD
+EXP
+NextLevel
+Class1
+Class2
+Class3
+ClassRank
+# of skills
+SkillID 1
+SkillID 2
+SkillID 3
+SkillID 4
+SkillID 5
+AbilID 1
+AbilID 2
+AbilID 3
+AbilID 4
+AbilID 5
+Gold
