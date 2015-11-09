@@ -1,6 +1,8 @@
 /*
 This header contains the Mersenne Twister pseudo-random number generating
 algorithm.
+
+This is not mine. It belongs to whomever made it. I don't really remember.
 */
 
 #ifndef MERSENNETWISTER_H
