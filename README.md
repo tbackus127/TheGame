@@ -17,4 +17,4 @@ Want to endure some cringe? This is back when I thought I should make all variab
 * [What are For Loops? Part II: Unrolled Boogaloo](Game_Battle/Game_Battle.cpp#L1701)
 * [What are For Loops? Part III: Revenge of the Switch](Game_Battle/Game_Battle.cpp#L2182)
 * [Maybe It's Not a Number](Game_Battle/Game_Battle.cpp#L2541)
-* [Let's Just Copy and Paste this Section](Game_Battle/Game_Battle.cpp#L2955]
+* [Let\'s Just Copy and Paste this Section](Game_Battle/Game_Battle.cpp#L2955]
